@@ -35,7 +35,14 @@ public partial class Forward_EnviarConfirmacionBlotter : System.Web.UI.Page
             Response.End();
 
         }
-
+        
+        //Prueba para sonar
+        public void PruebaSonar()
+        {
+        velocity = acelation/time;
+        }
+        // Veamos que pasa
+        
         public bool enviarOperacionesConfirmacion()
         {
             string[] operacionesList = operaciones.Split(',');
